@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {font-family: "indigoRegular";src: url("./Indigo\ Regular.woff")}
+
+:root {
+    --bgColorLight1: #F0F0F0;
+    --bgColorLight2: #FFFFFF;
+
+    --textColorLight3: #724BFF;
+}
