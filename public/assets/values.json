@@ -1,0 +1,42 @@
+{
+    "decorative_frame": {
+        "append": "frameValues",
+        "src": "../assets/decorative_frame.png",
+        "displayName": "Decorative Frame",
+        "rarity": "Common",
+        "value": 5,
+        "demand": 1
+    },
+    "bamboo_frame": {
+        "append": "frameValues",
+        "src": "../assets/bamboo_frame.png",
+        "displayName": "Bamboo Frame",
+        "rarity": "Common",
+        "value": 15,
+        "demand": 1
+    },
+    "steampunk_frame": {
+        "append": "frameValues",
+        "src": "../assets/steampunk_frame.png",
+        "displayName": "Steampunk Frame",
+        "rarity": "Common",
+        "value": 15,
+        "demand": 2
+    },
+    "lava_frame": {
+        "append": "frameValues",
+        "src": "../assets/lava_frame.png",
+        "displayName": "Lava Frame",
+        "rarity": "Common",
+        "value": 60,
+        "demand": 3
+    },
+    "ice_frame": {
+        "append": "frameValues",
+        "src": "../assets/ice_frame.png",
+        "displayName": "Ice Frame",
+        "rarity": "Common",
+        "value": 70,
+        "demand": 4
+    }
+}

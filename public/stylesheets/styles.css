@@ -14,13 +14,16 @@
 
     display: grid;
     grid-template-areas: "image itemName"
+                         "image itemRarity"
                          "image itemCost"
-                         "image itemDemand";
+                         "image itemDemand"
+                         "image nil";
 
     grid-template-rows: auto auto auto 0.4fr 0.75fr;
     justify-content: start;
     justify-items: start;
     align-items: start;
+    height: 140px;
 
     background-color: var(--bgColorLight2);
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 1%);
