@@ -1,5 +1,5 @@
 //load values
-fetch("../values.json").then(response => response.json()).then(data => {
+fetch("https://raw.githubusercontent.com/alpharmi/starving-artists/main/values.json").then(response => response.json()).then(data => {
     for (i in data.frames) {
         item = data.frames[i]
         console.log(item.append)
@@ -17,14 +17,14 @@ fetch("../values.json").then(response => response.json()).then(data => {
 
         for (var i=1;i<=item.demand; i++) {
             const star = document.createElement("img")
-            star.src = "../assets/ratingfull.png"
+            star.src = "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/ratingfull.png"
             star.style = "width: 20px"
             itemContainer.childNodes[9].append(star)
         }
 
         for (var i=1;i<=5-item.demand; i++) {
             const star = document.createElement("img")
-            star.src = "../assets/rating.png"
+            star.src = "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/rating.png"
             star.style = "width: 20px"
             itemContainer.childNodes[9].append(star)
         }
@@ -47,14 +47,14 @@ fetch("../values.json").then(response => response.json()).then(data => {
 
         for (var i=1;i<=item.demand; i++) {
             const star = document.createElement("img")
-            star.src = "../assets/ratingfull.png"
+            star.src = "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/ratingfull.png"
             star.style = "width: 20px"
             itemContainer.childNodes[9].append(star)
         }
 
         for (var i=1;i<=5-item.demand; i++) {
             const star = document.createElement("img")
-            star.src = "../assets/rating.png"
+            star.src = "https://raw.githubusercontent.com/alpharmi/starving-artists/main/assets/rating.png"
             star.style = "width: 20px"
             itemContainer.childNodes[9].append(star)
         }
