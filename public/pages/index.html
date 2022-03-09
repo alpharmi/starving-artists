@@ -10,7 +10,7 @@
 <!--I was forced to use vanilla html, css, & js.-->
 <!--Yes I know I can make classes and deticate css to them, but no, this is easier.-->
 <body style="font-family: 'Roboto', sans-serif; margin: 0; background-color: var(--bgColorLight1);">
-<div class="__main" style="display: grid; grid-template-rows: 50px auto auto 50px;">
+<div class="__main" style="display: grid; grid-template-rows: 50px auto auto 500px;">
     <header style="width: 100%; height: 50px; display: flex; align-items: center; background-color: var(--bgColorLight2); justify-content: space-between; justify-self: center; box-shadow: 0 2px 5px 0 rgb(0 0 0 / 1%)">
         <div></div>
         <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight3); margin: 0;">Starving Artists Value List</h1>
@@ -43,6 +43,19 @@
         <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Frame Values</h1>
         <div id="frameValues" style="width: auto; height: auto; display: grid; grid-template-columns: repeat(auto-fill, 400px); gap: 10px;">
             <div id="exampleItemContainer" class="itemContainer">
+                <img src="../assets/bamboo_frame.png" style="max-width: 150px; grid-area: image;">
+                <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight2); grid-area: itemName; margin: 0; padding-top: 22px;"></h1>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemRarity; margin: 0;">Rarity <span style="color: var(--textColorLight3);">Rairty</span> </span>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemCost; margin: 0;">Value <img src="../assets/robux.png" width="15px"> <span style="color: var(--textColorLight3);">0</span> </span>
+                <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemDemand; margin: 0;">Demand </span>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: 30px; padding-left: 50px; display: grid; grid-template-rows: 75px auto;">
+        <h1 style="font-size: 30px; font-weight: 900; color: var(--textColorLight2); height: 0px;">Effect Values</h1>
+        <div id="effectValues" style="width: auto; height: auto; display: grid; grid-template-columns: repeat(auto-fill, 400px); gap: 10px;">
+            <div id="exampleItemContainer2" class="itemContainer">
                 <img src="../assets/bamboo_frame.png" style="max-width: 150px; grid-area: image;">
                 <h1 style="font-size: 20px; font-weight: 900; color: var(--textColorLight2); grid-area: itemName; margin: 0; padding-top: 22px;"></h1>
                 <span style="font-size: 17px; color: var(--textColorLight1); margin: 3px; display: inline-block; grid-area: itemRarity; margin: 0;">Rarity <span style="color: var(--textColorLight3);">Rairty</span> </span>
