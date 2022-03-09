@@ -1,5 +1,5 @@
 //load values
-fetch("../assets/values.json").then(response => response.json()).then(data => {
+fetch("../values.json").then(response => response.json()).then(data => {
     for (i in data.frames) {
         item = data.frames[i]
         console.log(item.append)
